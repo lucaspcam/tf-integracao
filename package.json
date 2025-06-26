@@ -1,24 +1,28 @@
 {
-    "name": "tf-automacao-testes",
-    "version": "1.0.0",
-    "type": "module",
-    "main": "trabalho-final.js",
-    "scripts": {
-        "test": "mocha"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/lucaspcam/tf-automacao-testes.git"
-    },
-    "bugs": {
-        "url": "https://github.com/lucaspcam/tf-automacao-testes/issues"
-    },
-    "homepage": "https://github.com/lucaspcam/tf-automacao-testes#readme",
-    "description": "",
-    "devDependencies": {
-        "mocha": "^11.7.1"
-    }
+  "name": "tf-automacao",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "trabalho-final.js",
+  "scripts": {
+    "test": "mocha test/trabalho-final.js --timeout 5000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucaspcam/tf-automacao.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lucaspcam/tf-automacao/issues"
+  },
+  "homepage": "https://github.com/lucaspcam/tf-automacao#readme",
+  "description": "",
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "node-fetch": "^3.3.2"
+  },
+  "dependencies": {
+    "assert": "^2.1.0"
+  }
 }
